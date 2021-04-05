@@ -1,0 +1,398 @@
+/*debut du header de mon page web*/
+body{
+    background-color: #ffff;
+    border: #000 1px solid;
+    color: rgb(17, 30, 37)
+}
+#border{
+    margin: 0px;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    top:0;
+    left: 0 ;
+    height:70px;
+    background-color: bisque;
+    width: 100%;
+    padding:7px 90px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.57);
+    z-index: 1;
+    border-radius: 6px
+}
+nav #gris
+#logo{
+    margin-top: 0;
+    margin-left: 0% ;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 0%
+}
+nav ul{
+  margin-top: -50px;
+  padding-bottom: 20px;
+float:right;
+list-style-type:none;
+display: flex;
+
+
+}
+nav ul li a.active{
+    background-color: rgba(14, 9, 9, 0.5);
+     border-radius: 7px
+}  
+nav ul li a{
+    line-height: 50px;
+    color:aliceblue;
+    padding:10px 20px;
+    text-transform:uppercase;
+font-weight: bold;
+border-radius: 20px;
+text-decoration: none;
+}
+nav ul li a:hover{
+    font-style: italic;
+    font-size: 23px;
+    background-color:rgba(14, 9, 9, 0.5) 
+}
+nav ul li a:visited{background-color: rgba(221, 24, 24, 0.5);
+    
+} 
+/*le header de mon page3 web fin*/
+/*index.html*/
+ #font{
+    background-image: url('../image/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%; 
+    margin-top: 0px; 
+    border-radius:3px;
+   
+   
+     }
+#centrer-slogan{
+    text-align: center;
+    font-family:'parisienne'; 
+    padding: 280px;
+    color:rgba(41, 16, 12, 0.932);
+    font-size: 40px
+}
+marquee #color{
+color:#000;
+font-style: oblique;
+}
+/*page2*/
+#page2{
+    width: 100%;
+    height: 100vh; 
+    background-position: center;
+    background-size: 1600px;
+    background-repeat:no-repeat; 
+  color: rgb(0,0,0.4))
+}
+#page2 .page21{
+  
+}
+#plats{
+    margin-left: 150px;
+    border: #000 1px solid;
+    border-radius: 5px;
+    width:400px;
+    height:390px;
+    
+}
+#platss{
+    margin-left: 150px;
+    border: #000 1px solid;
+    border-radius: 5px;
+    width:400px;
+    height:390px;
+    
+     
+} 
+
+ #page2 .imgbotom{
+   margin-top: 4%;
+   margin-left: 20px;
+
+}
+#page2lpb {
+    text-align: center; 
+    color: rgb(12, 12, 12);
+    margin-top: 30px;
+
+
+}
+ #page2lpb #page2lpb1{
+     font-size: 68px;
+     font-family:'parisienne' ,'Lobster', 'cursive';
+    color: #000;
+    margin-top: -45px;
+    
+}
+#page2lpb #page2lpb2{
+   ;
+    ;
+    font-size: 30px;
+    margin-top: -45px;
+}
+/*le footer de mon siste web */
+#footer{
+    width: 100%;
+    height:250px;
+    background-color: rgb(26, 25, 25);  ;
+   bottom:0px;
+   clear: both;
+   position: relative;
+
+}
+#contenue-footer{
+    border: 1px solid;
+    height: 190px;
+    display: flex;
+}
+#contenue-footer #section-presentation,#section-contact,#section-liens{
+ flex:1;
+ padding: 15px;
+ border:1px solid white;
+ color: white
+}
+#section-presentation{
+    text-align: center
+}
+#section-presentation h1{
+text-align: left;
+margin-top: 0;
+
+}
+#footer-enbas {
+    text-align: center;
+    color: white;
+    font-size: 33px;
+    margin-top: 0%;
+}
+#section-liens{
+    text-align: center;
+}
+#section-liens img{
+    height: 50px;
+  text-align: center;
+    padding: 10px;
+
+}
+#section-contact{
+    text-align: cener;
+    font-size: 20px;
+    padding-top: 50px
+}
+#dernierajuste{
+    padding: px;
+    float: left;
+}
+    
+}
+
+
+/*fin du footer*/
+
+/* page du menu */
+#menu-page{
+    border: 1px solid ;
+    background-color: rgb(236, 236, 236);
+    height: 310vh;
+    width: 100%;
+    color: rgb(0,0,0.4);
+    
+}
+#menu-page #border-menu{
+    border: 3px solid ;
+    margin:0px 100px 0 100px;
+    margin-inline-start: 50px;
+    height: 260vh;
+    background-color: rgb(253, 253, 253)
+}
+#menu-page #menu-text{
+    text-align: center;
+    border-bottom: 2px solid  rgb(0, 0, 0);
+    font-weight: 2em ;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline 
+}
+ #bacimage{
+   height: 300px;
+  width: 100%;
+  border-radius: 5px;  
+}
+#ptt{
+    text-align: center
+}
+#pttdej{
+    margin-left: 30px;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'parisienne';
+}
+#pttdej1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#pttdej0{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'parisienne';
+    text-decoration: underline;
+    margin-top: -15px
+}
+#pttdej2{
+    font-size: 30px;
+    margin-top: -30px;
+}
+/*fin du menu*/
+/*debut de l'activiter*/
+#activiter{
+    height: 200vh;
+    border: 1px solid rgb(4, 4, 63);
+    margin: 0px 70px 0px 70px;
+    background: rgb(242, 242, 245)
+}
+ #imgact{
+    height: 450px;
+    width: 100%;
+    margin-top: 55px;
+}
+#acttext{
+    text-transform;
+    text-align: cente;
+    font-size: 30px;
+    margin-top:-40px;
+    line-height: 32px;
+    color: rgb(0, 0, 0);
+}
+#actttext{
+    font-family: 'parisienne';
+    font-size:30px;
+    margin-top: -20px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.actsalsa{
+    font-style: italic;
+    font-weight: bold;
+}
+#actimage2{
+    height: 440px;
+    width: 430px;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+.actitx{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+#pttmenu{
+    font-weight: bold;
+}
+/*fin de activiter*/
+/*debut de contact*/
+#cont{
+    height: 160vh;
+    margin: 0px 6px 0px 6px;
+border: 1px solid blue;
+}
+#barre{
+    height: 68px;
+    width: 100%;
+   background-color: rgb(117, 115, 115);
+}
+.contres{
+    text-transform: uppercse;
+    font-size: 50px;
+    font-family: 'parisienne';
+    margin-top: 10px;
+    text-align: center;
+
+
+}
+#formul0{
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 17px;
+    margin-right: 50px;
+}
+
+#item{
+     font-weight: bold;
+     font-size: 25px;
+     margin-left: 0px;
+} 
+#champ{
+    background-color: rgb(231, 231, 236);
+    height: 30px;
+}
+textarea{
+    background-color: rgb(213, 213, 219);
+    
+}
+#politique{
+    color: rgb(248, 103, 7);
+} 
+#envoie{
+    color: white;
+    background-color: #FFB03B;;
+    height: 25px;
+}
+#imagecontact{
+    height: 690px;
+    width: 570px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+    border-radius: 6px; 
+}
+/*fin de contact*/
+/*debut de apropos*/
+#apropos{
+    height: 150vh;
+    border: 1px solid #000;
+    margin: 0 70px 0 70px;
+}
+#image-resto{
+      width: 100%;
+      height: 400px;
+      border-radius: 4px;
+}
+#textapropos{
+    text-align: center;
+}
+#apropostexh1{
+    font-family: 'parisienne';
+    font-size: 45px;
+}
+#apropostexh2{
+    font-size: 25px;
+}
+#finpros{
+    font-size: 20px;
+
+}
+
+
+/*fin de apropos*/
+
+
+
+
+
+

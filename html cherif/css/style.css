@@ -1,0 +1,22 @@
+#center{
+    margin-left: 150px;
+    border: solid 2px;
+    margin-right: 250px;
+
+}
+#radius{
+    border-radius: 8px;
+    margin-left: 30px;
+    border: solid 1px;
+}
+#coler{
+    background-color:rgb(19, 19, 206);
+    color: cornsilk;
+    border-radius: 8px;
+    text-decoration: solid 20px;
+    margin-right: 600px;
+}
+.espace{
+    margin-left: 20px;
+    
+}
